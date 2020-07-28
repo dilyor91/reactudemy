@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import ParentComponent from './testlearn/ParentComponent';
 import * as serviceWorker from './serviceWorker';
+import Test from './testlearn/Test';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Test />
   </React.StrictMode>,
   document.getElementById('root')
 );
